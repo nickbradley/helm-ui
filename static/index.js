@@ -4,9 +4,7 @@ import { app, BrowserWindow, screen } from 'electron'
 import * as path from 'path'
 import { format as formatUrl } from 'url'
 
-const isDevelopment = process.env.NODE_ENV !== 'production';
-// https://github.com/electron-userland/electron-webpack/issues/52#issuecomment-362316068
-const staticPath = isDevelopment ? __static  : __dirname.replace(/app\.asar$/, "static");
+const isDevelopment = process.env.NODE_ENV !== 'production'
 
 // global reference to mainWindow (necessary to prevent window from being garbage collected)
 let mainWindow

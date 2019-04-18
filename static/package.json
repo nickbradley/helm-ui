@@ -1,6 +1,5 @@
 {
   "name": "electron-webpack-quick-start",
-  "author": "Nick Bradley <ncbrad@cs.ubc.ca>",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -23,13 +22,5 @@
     "typescript": "^3.4.3",
     "vue": "^2.6.10",
     "webpack": "4.28.4"
-  },
-  "build": {
-    "mac": {
-      "category": "public.app-category.productivity"
-    },
-    "linux": {
-      "target": "pacman"
-    }
   }
 }

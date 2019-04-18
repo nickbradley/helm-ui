@@ -1,0 +1,1 @@
+{"version":3,"file":"File.js","sourceRoot":"","sources":["File.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,IAAI;IACb,YAAY,EAAU,EAAE,IAAY,EAAE,IAAY;IAElD,CAAC;IAEM,QAAQ;IAEf,CAAC;CACJ","sourcesContent":["export class File {\n    constructor(id: number, path: string, text: string) {\n\n    }\n\n    public onSelect() {\n\n    }\n}"]}

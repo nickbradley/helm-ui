@@ -1,16 +1,18 @@
 import Vue from "vue";
-import App from "./App.vue";
+import App from "./App.vue"
 // @ts-ignore
 import * as AsyncComputed from "vue-async-computed";
+
 // @ts-ignore
 Vue.use(AsyncComputed);
+
 new Vue({
     el: '#app',
     created: function () {
-        window.addEventListener("keyup", this.keyup);
+        window.addEventListener("keyup", this.keyup)
     },
     methods: {
-        keyup: function (event) {
+        keyup: function (event: any) {
             switch (event.key) {
                 case "ArrowDown":
                     this.$root.$emit("navDown");
@@ -32,4 +34,3 @@ new Vue({
     },
     render: h => h(App),
 });
-//# sourceMappingURL=index.js.map
